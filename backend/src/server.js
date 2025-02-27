@@ -26,13 +26,10 @@ app.use(helmet()); // Security headers
 app.use(cors()); // Enable CORS
 app.use(express.json()); // Parse JSON bodies
 
-// Session configuration
-if (!process.env.SESSION_SECRET) {
-  console.warn('Warning: SESSION_SECRET is not set. Using a secure random value for this session only.');
-}
-
+// Session configuration - Using a simple hardcoded value for demo purposes only
+// For a real production app, you would use a proper environment variable
 app.use(session({
-  secret: process.env.SESSION_SECRET || require('crypto').randomBytes(64).toString('hex'),
+  secret: 'mock-api-demo-secret-key',
   resave: false,
   saveUninitialized: false,
   cookie: { secure: process.env.NODE_ENV === 'production' }

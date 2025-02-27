@@ -66,13 +66,7 @@ GET /api/usage/stats/summary
    npm install
    ```
 
-3. Set up environment variables:
-   ```
-   cp .env.example .env
-   ```
-   Then edit the `.env` file to set your environment variables.
-
-4. Start the server:
+3. Start the server:
    ```
    npm start
    ```
@@ -82,22 +76,22 @@ GET /api/usage/stats/summary
    npm run dev
    ```
 
-## Environment Variables
+## Environment Variables (Optional)
 
-The application uses the following environment variables:
+This demo application uses a hardcoded session secret for simplicity. However, you can still customize the following environment variables by creating a `.env` file:
 
 - `PORT`: The port on which the server will run (default: 3000)
 - `NODE_ENV`: The environment mode (development, production, test)
-- `SESSION_SECRET`: Secret key for session encryption (required for production)
 - `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`: Database connection details (for future use)
 
 ## Deployment
 
-For production deployment:
+For this demo application, deployment is simple:
 
-1. Set the `NODE_ENV` environment variable to `production`
-2. Generate a strong random string for `SESSION_SECRET`
-3. Use the `npm start` command to run the server
+1. Install dependencies: `npm install`
+2. Start the server: `npm start`
+
+The server will run on port 3000 by default, or you can specify a different port using the `PORT` environment variable.
 
 ## Testing
 
@@ -118,7 +112,7 @@ GET /api/usage?page=1&limit=10
 ### Get all Free tier users who have reached their limit
 
 ```
-GET /api/usage?tier=Free&limit_reached=true
+GET /api/usage?limit_reached=true
 ```
 
 ### Get summary statistics
