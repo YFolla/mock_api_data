@@ -99,12 +99,24 @@ The server will run on port 3000 by default, or you can specify a different port
 
 To deploy this API on [Render](https://render.com):
 
+#### Option 1: Using the render.yaml file (Recommended)
+
+1. Fork or clone this repository to your GitHub account
+2. In Render dashboard, click "New" and select "Blueprint"
+3. Connect your GitHub repository
+4. Render will automatically detect the render.yaml file and configure everything
+5. Click "Apply" to deploy the service
+
+#### Option 2: Manual Configuration
+
+If you prefer to configure manually:
+
 1. Create a new Web Service on Render
 2. Connect your GitHub repository
 3. Configure the following settings:
-   - **Build Command**: `cd backend && npm install`
-   - **Start Command**: `cd backend && npm start`
-   - **Root Directory**: Leave empty (or specify `/` if required)
+   - **Root Directory**: `backend`
+   - **Build Command**: `npm install`
+   - **Start Command**: `npm start`
 
 4. Set the following environment variables in Render's dashboard:
    - `NODE_ENV`: Set to `production`
