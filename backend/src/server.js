@@ -9,6 +9,10 @@ const helmet = require('helmet');
 const session = require('express-session');
 const cors = require('cors');
 const path = require('path');
+const dotenv = require('dotenv');
+
+// Load environment variables
+dotenv.config();
 
 // Import routes
 const usageRoutes = require('./routes/usage');
@@ -23,8 +27,12 @@ app.use(cors()); // Enable CORS
 app.use(express.json()); // Parse JSON bodies
 
 // Session configuration
+if (!process.env.SESSION_SECRET) {
+  console.warn('Warning: SESSION_SECRET is not set. Using a secure random value for this session only.');
+}
+
 app.use(session({
-  secret: process.env.SESSION_SECRET || 'mock-api-secret',
+  secret: process.env.SESSION_SECRET || require('crypto').randomBytes(64).toString('hex'),
   resave: false,
   saveUninitialized: false,
   cookie: { secure: process.env.NODE_ENV === 'production' }
@@ -51,6 +59,7 @@ app.use((err, req, res, next) => {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
+  console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
 });
 
 module.exports = app; // Export for testing 

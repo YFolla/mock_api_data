@@ -55,12 +55,24 @@ GET /api/usage/stats/summary
 ## Installation
 
 1. Clone the repository
+   ```
+   git clone https://github.com/YFolla/mock_api_data.git
+   cd mock_api_data
+   ```
+
 2. Install dependencies:
    ```
    cd backend
    npm install
    ```
-3. Start the server:
+
+3. Set up environment variables:
+   ```
+   cp .env.example .env
+   ```
+   Then edit the `.env` file to set your environment variables.
+
+4. Start the server:
    ```
    npm start
    ```
@@ -69,6 +81,23 @@ GET /api/usage/stats/summary
    ```
    npm run dev
    ```
+
+## Environment Variables
+
+The application uses the following environment variables:
+
+- `PORT`: The port on which the server will run (default: 3000)
+- `NODE_ENV`: The environment mode (development, production, test)
+- `SESSION_SECRET`: Secret key for session encryption (required for production)
+- `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`: Database connection details (for future use)
+
+## Deployment
+
+For production deployment:
+
+1. Set the `NODE_ENV` environment variable to `production`
+2. Generate a strong random string for `SESSION_SECRET`
+3. Use the `npm start` command to run the server
 
 ## Testing
 
