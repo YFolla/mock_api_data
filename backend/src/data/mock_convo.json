@@ -1,0 +1,172 @@
+[
+    {
+      "conversation_id": "conv1",
+      "messages": [
+        {
+          "author": "user1",
+          "message": "Hi there, can your AI data API handle large CSV files in real time?"
+        },
+        {
+          "author": "chatbot",
+          "message": "Yes, our API can handle CSVs up to 1GB in size using the parseCSV() endpoint."
+        },
+        {
+          "author": "user1",
+          "message": "Great, that works!"
+        }
+      ]
+    },
+    {
+      "conversation_id": "conv2",
+      "messages": [
+        {
+          "author": "user2",
+          "message": "Hello, is it possible to export JSON summaries directly from the AI data API?"
+        },
+        {
+          "author": "chatbot",
+          "message": "Absolutely. You can use the /export endpoint to receive a JSON summary of your dataset."
+        },
+        {
+          "author": "user2",
+          "message": "Perfect! Thanks."
+        }
+      ]
+    },
+    {
+      "conversation_id": "conv3",
+      "messages": [
+        {
+          "author": "user3",
+          "message": "Does the AI data API support direct Slack integration?"
+        },
+        {
+          "author": "chatbot",
+          "message": "No, we do not offer Slack integration at this time."
+        },
+        {
+          "author": "user3",
+          "message": "Bummer, that doesn't work for me."
+        }
+      ]
+    },
+    {
+      "conversation_id": "conv4",
+      "messages": [
+        {
+          "author": "user4",
+          "message": "My calls are failing with a 500 error. Any idea why?"
+        },
+        {
+          "author": "chatbot",
+          "message": "Have you tried clearing your cache and disabling all your extensions?"
+        },
+        {
+          "author": "user4",
+          "message": "That has nothing to do with the API usage. This is not helpful."
+        }
+      ]
+    },
+    {
+      "conversation_id": "conv5",
+      "messages": [
+        {
+          "author": "user5",
+          "message": "Hi, can the AI data API auto-detect column headers in my CSV?"
+        },
+        {
+          "author": "chatbot",
+          "message": "Yes, just pass the parameter 'auto_headers=true' in your request."
+        },
+        {
+          "author": "user5",
+          "message": "Great, thanks for the tip!"
+        }
+      ]
+    },
+    {
+      "conversation_id": "conv6",
+      "messages": [
+        {
+          "author": "user6",
+          "message": "Does the AI data API offer real-time data streaming for sensor data?"
+        },
+        {
+          "author": "chatbot",
+          "message": "Yes, you can subscribe to our WebSocket endpoint to receive real-time events."
+        },
+        {
+          "author": "user6",
+          "message": "Awesome! Exactly what I needed."
+        }
+      ]
+    },
+    {
+      "conversation_id": "conv7",
+      "messages": [
+        {
+          "author": "user7",
+          "message": "I want to transform my JSON data into CSV automatically. Is that possible?"
+        },
+        {
+          "author": "chatbot",
+          "message": "Sorry, that feature is not supported yet."
+        },
+        {
+          "author": "user7",
+          "message": "That’s really disappointing. I guess I'll look elsewhere."
+        }
+      ]
+    },
+    {
+      "conversation_id": "conv8",
+      "messages": [
+        {
+          "author": "user8",
+          "message": "Is there a way to limit the number of rows returned from the AI data API?"
+        },
+        {
+          "author": "chatbot",
+          "message": "Yes, add a 'max_rows' query parameter in your GET request."
+        },
+        {
+          "author": "user8",
+          "message": "Great, that works for me!"
+        }
+      ]
+    },
+    {
+      "conversation_id": "conv9",
+      "messages": [
+        {
+          "author": "user9",
+          "message": "I'm seeing an error saying 'Invalid token' even though I have a valid API key. What do I do?"
+        },
+        {
+          "author": "chatbot",
+          "message": "Try resetting your token in the developer dashboard. That usually resolves it."
+        },
+        {
+          "author": "user9",
+          "message": "Thanks, I'll do that. Hope it fixes the issue!"
+        }
+      ]
+    },
+    {
+      "conversation_id": "conv10",
+      "messages": [
+        {
+          "author": "user10",
+          "message": "My request returns random HTML data, not JSON. Am I doing something wrong?"
+        },
+        {
+          "author": "chatbot",
+          "message": "It might be that you need to specify 'Content-Type: application/xml'."
+        },
+        {
+          "author": "user10",
+          "message": "That's not correct—I'm looking for JSON, not XML. This is useless."
+        }
+      ]
+    }
+  ]

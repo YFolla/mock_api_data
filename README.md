@@ -1,14 +1,14 @@
 # Mock API Data Server
 
-A RESTful API server for accessing and analyzing mock usage data.
+A RESTful API server for accessing and analyzing mock usage and conversation data.
 
 ## Features
 
-- **RESTful API**: Access mock usage data through a well-designed API
+- **RESTful API**: Access mock data through a well-designed API
 - **Filtering**: Filter data by various parameters
 - **Pagination**: Control the amount of data returned
-- **Statistics**: Get summary statistics of the usage data
-- **User-specific data**: Retrieve data for specific users
+- **Statistics**: Get summary statistics of the data
+- **User-specific data**: Retrieve data for specific users or conversations
 
 ## Tech Stack
 
@@ -19,7 +19,9 @@ A RESTful API server for accessing and analyzing mock usage data.
 
 ## API Endpoints
 
-### Get All Usage Data
+### Usage Data Endpoints
+
+#### Get All Usage Data
 
 ```
 GET /api/usage
@@ -32,13 +34,13 @@ Query Parameters:
 - `page` (number): Page number for pagination
 - `limit` (number): Number of results per page
 
-### Get User by Email
+#### Get User by Email
 
 ```
 GET /api/usage/:email
 ```
 
-### Get Users by Tier
+#### Get Users by Tier
 
 ```
 GET /api/usage/tier/:tier
@@ -46,11 +48,46 @@ GET /api/usage/tier/:tier
 
 Valid tiers: `Free`, `Pro`, `Enterprise`
 
-### Get Usage Summary Statistics
+#### Get Usage Summary Statistics
 
 ```
 GET /api/usage/stats/summary
 ```
+
+### Conversation Data Endpoints
+
+#### Get All Conversations
+
+```
+GET /api/conversations
+```
+
+Query Parameters:
+- `author` (string): Filter by author (e.g., 'user1', 'chatbot')
+- `search` (string): Search for conversations containing specific text
+- `page` (number): Page number for pagination
+- `limit` (number): Number of results per page
+
+#### Get Conversation by ID
+
+```
+GET /api/conversations/:id
+```
+
+Example: `GET /api/conversations/conv1`
+
+#### Get Conversation Statistics
+
+```
+GET /api/conversations/stats/summary
+```
+
+Returns statistics including:
+- Total number of conversations
+- Total number of messages
+- Messages by author type (user vs chatbot)
+- Average messages per conversation
+- Simple sentiment analysis
 
 ## Installation
 
@@ -157,10 +194,28 @@ GET /api/usage?page=1&limit=10
 GET /api/usage?limit_reached=true
 ```
 
-### Get summary statistics
+### Get usage summary statistics
 
 ```
 GET /api/usage/stats/summary
+```
+
+### Get all conversations with a specific author
+
+```
+GET /api/conversations?author=user1
+```
+
+### Search for conversations containing specific text
+
+```
+GET /api/conversations?search=slack
+```
+
+### Get conversation statistics
+
+```
+GET /api/conversations/stats/summary
 ```
 
 ## License

@@ -16,6 +16,7 @@ dotenv.config();
 
 // Import routes
 const usageRoutes = require('./routes/usage');
+const conversationsRoutes = require('./routes/conversations');
 
 // Initialize Express app
 const app = express();
@@ -41,6 +42,7 @@ app.use(session({
 
 // API routes
 app.use('/api/usage', usageRoutes);
+app.use('/api/conversations', conversationsRoutes);
 
 // Health check endpoint
 app.get('/health', (req, res) => {
@@ -59,6 +61,9 @@ app.get('/', (req, res) => {
       userByEmail: '/api/usage/:email',
       usageByTier: '/api/usage/tier/:tier',
       usageSummary: '/api/usage/stats/summary',
+      allConversations: '/api/conversations',
+      conversationById: '/api/conversations/:id',
+      conversationStats: '/api/conversations/stats/summary',
       health: '/health'
     }
   });
