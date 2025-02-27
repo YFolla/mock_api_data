@@ -1,0 +1,802 @@
+[
+    {
+      "user_email": "user1@example.com",
+      "api_calls": 91,
+      "errors": 0,
+      "chat_questions": 75,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user2@example.com",
+      "api_calls": 413,
+      "errors": 36,
+      "chat_questions": 65,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user3@example.com",
+      "api_calls": 169,
+      "errors": 1,
+      "chat_questions": 96,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user4@example.com",
+      "api_calls": 349,
+      "errors": 11,
+      "chat_questions": 87,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user5@example.com",
+      "api_calls": 13,
+      "errors": 42,
+      "chat_questions": 46,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user6@example.com",
+      "api_calls": 316,
+      "errors": 42,
+      "chat_questions": 27,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user7@example.com",
+      "api_calls": 299,
+      "errors": 16,
+      "chat_questions": 41,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user8@example.com",
+      "api_calls": 171,
+      "errors": 48,
+      "chat_questions": 29,
+      "tier": "Free",
+      "limit_reached": "TRUE"
+    },
+    {
+      "user_email": "user9@example.com",
+      "api_calls": 241,
+      "errors": 38,
+      "chat_questions": 16,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user10@example.com",
+      "api_calls": 188,
+      "errors": 42,
+      "chat_questions": 82,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user11@example.com",
+      "api_calls": 12,
+      "errors": 24,
+      "chat_questions": 97,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user12@example.com",
+      "api_calls": 22,
+      "errors": 24,
+      "chat_questions": 43,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user13@example.com",
+      "api_calls": 361,
+      "errors": 27,
+      "chat_questions": 74,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user14@example.com",
+      "api_calls": 217,
+      "errors": 17,
+      "chat_questions": 17,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user15@example.com",
+      "api_calls": 492,
+      "errors": 48,
+      "chat_questions": 58,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user16@example.com",
+      "api_calls": 192,
+      "errors": 11,
+      "chat_questions": 33,
+      "tier": "Free",
+      "limit_reached": "TRUE"
+    },
+    {
+      "user_email": "user17@example.com",
+      "api_calls": 182,
+      "errors": 28,
+      "chat_questions": 92,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user18@example.com",
+      "api_calls": 325,
+      "errors": 30,
+      "chat_questions": 85,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user19@example.com",
+      "api_calls": 191,
+      "errors": 41,
+      "chat_questions": 7,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user20@example.com",
+      "api_calls": 11,
+      "errors": 36,
+      "chat_questions": 48,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user21@example.com",
+      "api_calls": 353,
+      "errors": 20,
+      "chat_questions": 7,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user22@example.com",
+      "api_calls": 401,
+      "errors": 48,
+      "chat_questions": 23,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user23@example.com",
+      "api_calls": 258,
+      "errors": 9,
+      "chat_questions": 93,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user24@example.com",
+      "api_calls": 254,
+      "errors": 26,
+      "chat_questions": 33,
+      "tier": "Free",
+      "limit_reached": "TRUE"
+    },
+    {
+      "user_email": "user25@example.com",
+      "api_calls": 420,
+      "errors": 0,
+      "chat_questions": 82,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user26@example.com",
+      "api_calls": 305,
+      "errors": 10,
+      "chat_questions": 14,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user27@example.com",
+      "api_calls": 259,
+      "errors": 49,
+      "chat_questions": 94,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user28@example.com",
+      "api_calls": 332,
+      "errors": 37,
+      "chat_questions": 75,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user29@example.com",
+      "api_calls": 127,
+      "errors": 5,
+      "chat_questions": 89,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user30@example.com",
+      "api_calls": 336,
+      "errors": 46,
+      "chat_questions": 81,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user31@example.com",
+      "api_calls": 6,
+      "errors": 35,
+      "chat_questions": 88,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user32@example.com",
+      "api_calls": 166,
+      "errors": 0,
+      "chat_questions": 43,
+      "tier": "Free",
+      "limit_reached": "TRUE"
+    },
+    {
+      "user_email": "user33@example.com",
+      "api_calls": 161,
+      "errors": 28,
+      "chat_questions": 31,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user34@example.com",
+      "api_calls": 91,
+      "errors": 13,
+      "chat_questions": 76,
+      "tier": "Free",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user35@example.com",
+      "api_calls": 1491,
+      "errors": 1,
+      "chat_questions": 16,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user36@example.com",
+      "api_calls": 219,
+      "errors": 12,
+      "chat_questions": 58,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user37@example.com",
+      "api_calls": 498,
+      "errors": 45,
+      "chat_questions": 55,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user38@example.com",
+      "api_calls": 948,
+      "errors": 9,
+      "chat_questions": 75,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user39@example.com",
+      "api_calls": 568,
+      "errors": 13,
+      "chat_questions": 65,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user40@example.com",
+      "api_calls": 11,
+      "errors": 2,
+      "chat_questions": 96,
+      "tier": "Pro",
+      "limit_reached": "TRUE"
+    },
+    {
+      "user_email": "user41@example.com",
+      "api_calls": 765,
+      "errors": 2,
+      "chat_questions": 55,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user42@example.com",
+      "api_calls": 1179,
+      "errors": 24,
+      "chat_questions": 60,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user43@example.com",
+      "api_calls": 118,
+      "errors": 30,
+      "chat_questions": 48,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user44@example.com",
+      "api_calls": 524,
+      "errors": 9,
+      "chat_questions": 7,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user45@example.com",
+      "api_calls": 1293,
+      "errors": 20,
+      "chat_questions": 3,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user46@example.com",
+      "api_calls": 129,
+      "errors": 29,
+      "chat_questions": 20,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user47@example.com",
+      "api_calls": 1483,
+      "errors": 39,
+      "chat_questions": 16,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user48@example.com",
+      "api_calls": 1320,
+      "errors": 29,
+      "chat_questions": 93,
+      "tier": "Pro",
+      "limit_reached": "TRUE"
+    },
+    {
+      "user_email": "user49@example.com",
+      "api_calls": 719,
+      "errors": 7,
+      "chat_questions": 9,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user50@example.com",
+      "api_calls": 471,
+      "errors": 35,
+      "chat_questions": 39,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user51@example.com",
+      "api_calls": 1088,
+      "errors": 2,
+      "chat_questions": 93,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user52@example.com",
+      "api_calls": 671,
+      "errors": 31,
+      "chat_questions": 50,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user53@example.com",
+      "api_calls": 587,
+      "errors": 20,
+      "chat_questions": 65,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user54@example.com",
+      "api_calls": 1150,
+      "errors": 35,
+      "chat_questions": 97,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user55@example.com",
+      "api_calls": 798,
+      "errors": 9,
+      "chat_questions": 67,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user56@example.com",
+      "api_calls": 1277,
+      "errors": 14,
+      "chat_questions": 82,
+      "tier": "Pro",
+      "limit_reached": "TRUE"
+    },
+    {
+      "user_email": "user57@example.com",
+      "api_calls": 1437,
+      "errors": 26,
+      "chat_questions": 71,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user58@example.com",
+      "api_calls": 630,
+      "errors": 22,
+      "chat_questions": 36,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user59@example.com",
+      "api_calls": 490,
+      "errors": 10,
+      "chat_questions": 95,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user60@example.com",
+      "api_calls": 1388,
+      "errors": 47,
+      "chat_questions": 68,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user61@example.com",
+      "api_calls": 393,
+      "errors": 33,
+      "chat_questions": 13,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user62@example.com",
+      "api_calls": 858,
+      "errors": 8,
+      "chat_questions": 77,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user63@example.com",
+      "api_calls": 708,
+      "errors": 19,
+      "chat_questions": 35,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user64@example.com",
+      "api_calls": 1458,
+      "errors": 17,
+      "chat_questions": 2,
+      "tier": "Pro",
+      "limit_reached": "TRUE"
+    },
+    {
+      "user_email": "user65@example.com",
+      "api_calls": 1439,
+      "errors": 4,
+      "chat_questions": 52,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user66@example.com",
+      "api_calls": 317,
+      "errors": 18,
+      "chat_questions": 94,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user67@example.com",
+      "api_calls": 708,
+      "errors": 5,
+      "chat_questions": 28,
+      "tier": "Pro",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user68@example.com",
+      "api_calls": 10647,
+      "errors": 41,
+      "chat_questions": 17,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user69@example.com",
+      "api_calls": 8950,
+      "errors": 26,
+      "chat_questions": 73,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user70@example.com",
+      "api_calls": 14321,
+      "errors": 13,
+      "chat_questions": 95,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user71@example.com",
+      "api_calls": 7808,
+      "errors": 42,
+      "chat_questions": 81,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user72@example.com",
+      "api_calls": 1648,
+      "errors": 24,
+      "chat_questions": 31,
+      "tier": "Enterprise",
+      "limit_reached": "TRUE"
+    },
+    {
+      "user_email": "user73@example.com",
+      "api_calls": 4036,
+      "errors": 47,
+      "chat_questions": 16,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user74@example.com",
+      "api_calls": 10690,
+      "errors": 27,
+      "chat_questions": 28,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user75@example.com",
+      "api_calls": 4109,
+      "errors": 26,
+      "chat_questions": 12,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user76@example.com",
+      "api_calls": 3550,
+      "errors": 14,
+      "chat_questions": 52,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user77@example.com",
+      "api_calls": 7909,
+      "errors": 30,
+      "chat_questions": 9,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user78@example.com",
+      "api_calls": 5282,
+      "errors": 20,
+      "chat_questions": 13,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user79@example.com",
+      "api_calls": 8206,
+      "errors": 10,
+      "chat_questions": 94,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user80@example.com",
+      "api_calls": 5126,
+      "errors": 38,
+      "chat_questions": 42,
+      "tier": "Enterprise",
+      "limit_reached": "TRUE"
+    },
+    {
+      "user_email": "user81@example.com",
+      "api_calls": 2620,
+      "errors": 36,
+      "chat_questions": 12,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user82@example.com",
+      "api_calls": 8773,
+      "errors": 2,
+      "chat_questions": 25,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user83@example.com",
+      "api_calls": 10134,
+      "errors": 39,
+      "chat_questions": 65,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user84@example.com",
+      "api_calls": 10182,
+      "errors": 48,
+      "chat_questions": 84,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user85@example.com",
+      "api_calls": 12534,
+      "errors": 47,
+      "chat_questions": 93,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user86@example.com",
+      "api_calls": 2823,
+      "errors": 31,
+      "chat_questions": 9,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user87@example.com",
+      "api_calls": 5152,
+      "errors": 39,
+      "chat_questions": 65,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user88@example.com",
+      "api_calls": 5808,
+      "errors": 12,
+      "chat_questions": 38,
+      "tier": "Enterprise",
+      "limit_reached": "TRUE"
+    },
+    {
+      "user_email": "user89@example.com",
+      "api_calls": 1832,
+      "errors": 31,
+      "chat_questions": 15,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user90@example.com",
+      "api_calls": 3362,
+      "errors": 7,
+      "chat_questions": 1,
+      "tier": "Enterprise",
+      "limit_reached": "TRUE"
+    },
+    {
+      "user_email": "user91@example.com",
+      "api_calls": 10366,
+      "errors": 27,
+      "chat_questions": 15,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user92@example.com",
+      "api_calls": 1264,
+      "errors": 1,
+      "chat_questions": 56,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user93@example.com",
+      "api_calls": 10981,
+      "errors": 16,
+      "chat_questions": 89,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user94@example.com",
+      "api_calls": 13206,
+      "errors": 2,
+      "chat_questions": 76,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user95@example.com",
+      "api_calls": 8414,
+      "errors": 44,
+      "chat_questions": 65,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user96@example.com",
+      "api_calls": 2289,
+      "errors": 18,
+      "chat_questions": 33,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user97@example.com",
+      "api_calls": 7503,
+      "errors": 7,
+      "chat_questions": 44,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user98@example.com",
+      "api_calls": 13029,
+      "errors": 37,
+      "chat_questions": 71,
+      "tier": "Enterprise",
+      "limit_reached": "FALSE"
+    },
+    {
+      "user_email": "user99@example.com",
+      "api_calls": 5937,
+      "errors": 22,
+      "chat_questions": 40,
+      "tier": "Enterprise",
+      "limit_reached": "TRUE"
+    },
+    {
+      "user_email": "user100@example.com",
+      "api_calls": 13835,
+      "errors": 6,
+      "chat_questions": 8,
+      "tier": "Enterprise",
+      "limit_reached": "TRUE"
+    }
+  ]
