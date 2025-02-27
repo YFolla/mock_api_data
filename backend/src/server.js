@@ -21,7 +21,7 @@ const usageRoutes = require('./routes/usage');
 const app = express();
 
 // Configure middleware
-app.use(morgan('dev')); // Logging
+app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev')); // Logging
 app.use(helmet()); // Security headers
 app.use(cors()); // Enable CORS
 app.use(express.json()); // Parse JSON bodies
@@ -32,7 +32,11 @@ app.use(session({
   secret: 'mock-api-demo-secret-key',
   resave: false,
   saveUninitialized: false,
-  cookie: { secure: process.env.NODE_ENV === 'production' }
+  cookie: { 
+    secure: process.env.NODE_ENV === 'production',
+    // Set sameSite to 'none' if using HTTPS in production
+    sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax'
+  }
 }));
 
 // API routes
@@ -40,7 +44,24 @@ app.use('/api/usage', usageRoutes);
 
 // Health check endpoint
 app.get('/health', (req, res) => {
-  res.status(200).json({ status: 'ok' });
+  res.status(200).json({ 
+    status: 'ok',
+    environment: process.env.NODE_ENV || 'development'
+  });
+});
+
+// Root endpoint for easy verification
+app.get('/', (req, res) => {
+  res.status(200).json({
+    message: 'Mock API Data Server is running',
+    endpoints: {
+      allUsage: '/api/usage',
+      userByEmail: '/api/usage/:email',
+      usageByTier: '/api/usage/tier/:tier',
+      usageSummary: '/api/usage/stats/summary',
+      health: '/health'
+    }
+  });
 });
 
 // Error handling middleware
